@@ -1,7 +1,7 @@
 import config from 'config';
 import { fetchWrapper } from '@/_helpers';
 
-const baseUrl = `${config.apiUrl}/users`;
+const baseUrl = `${config.apiUrl}/end-to-end-test`;
 
 export const userService = {
     getAll,

@@ -5,7 +5,7 @@ export function configureFakeBackend() {
     let users = JSON.parse(localStorage.getItem('users')) || [{ 
         id: 1,
         title: 'Mr',
-        firstName: 'Joe',
+        deviceRange: 'Joe',
         lastName: 'Bloggs',
         email: 'joe@bloggs.com',
         role: Role.User,

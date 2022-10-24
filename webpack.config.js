@@ -35,7 +35,7 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://localhost:4000'
+            apiUrl: 'https://20wop5mnqi.execute-api.eu-west-1.amazonaws.com/dev'
         })
     }
 }
